@@ -1,0 +1,21 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.sticky-sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px;
+    z-index: 9;
+}
+.sticky-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+aside{
+    height: 100vh;
+}
